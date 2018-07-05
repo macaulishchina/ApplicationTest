@@ -1,5 +1,5 @@
 package com.macaulish.top.mylibrary;
-
+import com.macaulish.top.mylibrary.FileUtils;
 /**
  * created by hu
  * at 2018/7/5
@@ -8,6 +8,7 @@ package com.macaulish.top.mylibrary;
  */
 public class FileUtilJava {
     public static String test(){
+        FileUtils.INSTANCE.toReadableSize(1221);
         return "test";
     }
 }
